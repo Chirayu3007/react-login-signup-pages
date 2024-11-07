@@ -50,7 +50,7 @@ const SignUp = () => {
                         <img
                             src={loginImg}
                             alt="PreciousInfoSystem Background"
-                            className="max-w-[70%] max-h-[70%] mx-auto"
+                            className="max-w-[70%] max-h-[70%] mx-auto mb-3"
                         />
                     </div>
 
