@@ -1,13 +1,15 @@
-import './App.css'
-import SignUp from './components/SignUp'
+import React from 'react';
+import './App.css';
+import Login from './components/Login';
+import SignUp from './components/SignUp';
 
 function App() {
-
   return (
-
-    <SignUp />
-
+    <>
+      <Login />
+      {/* <SignUp /> */}
+    </>
   );
 }
 
-export default App
+export default App;
