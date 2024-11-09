@@ -4,6 +4,7 @@ import * as Yup from 'yup';
 import loginImg from "../assets/preciousLogoSquare.png";
 import googleIcon from "../assets/googleIcon.png";
 import facebookIcon from "../assets/facebookIcon.png";
+import { Link } from 'react-router-dom';
 
 const formValidationSchema = Yup.object().shape({
     fullName: Yup.string()
@@ -157,7 +158,7 @@ const SignUp = () => {
                         </button>
 
                         <div className="text-center mt-6">
-                            <p className="text-gray-700 mt-9">Already have an account? <a href="index.html" className="text-red-600 hover:underline">Login</a></p>
+                            <p className="text-gray-700 mt-9">Already have an account? <Link to="/react-login-signup-pages" className="text-red-600 hover:underline">Login</Link></p>
                         </div>
                     </div>
                 </div>

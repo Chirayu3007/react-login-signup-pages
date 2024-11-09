@@ -3,6 +3,7 @@ import loginImg from "../assets/preciousLogoSquare.png";
 import googleIcon from "../assets/googleIcon.png";
 import facebookIcon from "../assets/facebookIcon.png";
 import { AiFillEye, AiFillEyeInvisible } from "react-icons/ai";
+import { Link } from 'react-router-dom';
 
 const Login = () => {
     const [email, setEmail] = useState("");
@@ -139,7 +140,7 @@ const Login = () => {
                         </button>
 
                         <div className="text-center mt-6">
-                            <p className="text-gray-700 mt-9">Don't have an account? <a href="index.html" className="text-red-600 mt-3">Signup</a></p>
+                            <p className="text-gray-700 mt-9">Don't have an account? <Link to="/react-login-signup-pages/sign-up" className="text-red-600 mt-3">Signup</Link></p>
                         </div>
                     </div>
                 </div>
